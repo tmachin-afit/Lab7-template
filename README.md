@@ -9,7 +9,7 @@ ACE Env:
 * GPU: 1 (exclusive)
 
 
-## Step 1: Keras Tutorial
+## Option 1: Keras Tutorial
 https://www.tensorflow.org/text/tutorials/transformer
 
 Yes, I know you can copy/pasta most of the code. That is not the point (see deliverables below). Follow the tutorial and create a single script that contains the various classes necessary to translate Portuguese to English. Compare your output to the final output from the tutorial. Make sure to comment anything you did differently than the tutorial (if you needed to change the layer sizes, etc) and why you did these changes.
@@ -46,38 +46,12 @@ The key deliverables I will be checking for this step:
 * vocabulary
 * plots
 
-## Step 2: Review additional tutorials
-Once you have completed the Keras tutorial, take a little time (NOT TOO MUCH. DON'T DO THESE AS WELL UNLESS YOU REALLY REALLY WANT TO) and review these two other tutorials. Make sure you understand the steps they are taking, and comment on any key differences in approach. Remember, SKIM these. 
-
-### Machine Learning Mastery 
+## Option 2: Machine Learning Mastery
 The overall tutorial can be found [here](https://machinelearningmastery.com/building-transformer-models-with-attention-crash-course-build-a-neural-machine-translator-in-12-days/). This tutorial is meant for a 12 day course, so please bear that in mind. They do provide links to a few sources for more data that may not be within the TF datasets if you wish to try other languages. 
 
-Comment on any key differences from the Keras tutorial.
+Provide the same Deliverables as the Keras tutorial if you choose this one. 
 
-### PyLessons
+## Option 3: PyLessons
 Again, the full tutorial is [here](https://pylessons.com/transformers-introduction), but you can select the various sections you want on the right for deeper review. PyLessons is also very good about including tutorial videos, so feel free to watch those if you wish. 
 
-Comment on any key differences from the Keras tutorial. 
-
-### Deliverables
-Comment in your 'lab7.py' your responses to the above MLM and PyLessons tutorials. 
-
-## Step 3: Now auf Deutsch
-Now that you have a working Transformer that translates Protuguese to English, we want to make one that translates English to German. Please review the MLM tutorial [here](https://machinelearningmastery.com/training-the-transformer-model/) on training a model for English to German. Specificlaly, the Pickled dataset is retrieved from [here](https://github.com/Rishav09/Neural-Machine-Translation-System/tree/master).
-
-For the following test inputs, provide your model output:
-*This class really is pretty cool. 
-*My name is <Student Name>
-*The squirrels went skydiving, but missed their target. 
-
-Comment on what your model might be doing well, or might be getting wrong. 
-
-### Deliverables
-Include the german model in the 'models' folder. 
-Include the test output as comments. 
-Include figures of the attention matrices of these phrases (if possible)
-Include your comments on the model outputs
-New Vocab file (as it will be different from your Portuguese file)
-
-## BONUS:
-BONUS POINTS!!! If you can train a model to translate from English to some fictional language (Preferrably a Tolkein language), and another model to translate back. 
+Provide the same Deliverables as the Keras tutorial if you choose this one. 
